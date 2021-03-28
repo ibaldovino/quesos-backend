@@ -39,7 +39,7 @@ public class tipolecheRest {
 	    }
 	 
 	 @GET
-	 @Path("todas")
+	 @Path("todos")
 	 @Produces({MediaType.APPLICATION_JSON})
 	public String getTipoleche () {
 			

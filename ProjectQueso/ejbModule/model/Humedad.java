@@ -10,7 +10,7 @@ import javax.persistence.*;
  * 
  */
 @Entity
-//@Table(name="HUMEDAD")
+@Table(name="HUMEDAD")
 @NamedQuery(name="Humedad.findAll", query="SELECT h FROM Humedad h ORDER BY h.idHumed")
 public class Humedad implements Serializable {
 	private static final long serialVersionUID = 1L;

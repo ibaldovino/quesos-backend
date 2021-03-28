@@ -10,7 +10,6 @@ import javax.persistence.PersistenceException;
 import javax.persistence.TypedQuery;
 
 import Exception.ServiciosException;
-import model.Subcatego;
 import model.Tecnologia;
 
 /**

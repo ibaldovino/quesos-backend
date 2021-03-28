@@ -38,7 +38,7 @@ public class paisRest {
 	    }
 	 
 	 @GET
-	 @Path("todas")
+	 @Path("todos")
 	 @Produces({MediaType.APPLICATION_JSON})
 	public String getPais () {
 			

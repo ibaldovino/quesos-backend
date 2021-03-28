@@ -11,7 +11,7 @@ import javax.persistence.TypedQuery;
 
 import Exception.ServiciosException;
 import model.Humedad;
-import model.Subcatego;
+
 
 /**
  * Session Bean implementation class Humedad
