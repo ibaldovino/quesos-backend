@@ -18,7 +18,7 @@ public class Role implements Serializable {
 	@SequenceGenerator(name="seq_rol", sequenceName="seq_ID_ROL", allocationSize=1)
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seq_rol")
 	@Column(name="ID_ROL")
-	private long idRol;
+	private Long idRol;
 
 	@Column(name="DESCR_ROL")
 	private String descrRol;

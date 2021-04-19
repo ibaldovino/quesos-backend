@@ -70,7 +70,7 @@ public class Usuarios implements UsuariosRemote {
 			return query.getResultList();
 		} catch (PersistenceException e) {
 			e.printStackTrace();
-			throw new ServiciosException("No se puedo listar los Usuarios");
+			throw new ServiciosException("No se pudo listar los Usuarios");
 		}
 	}
     

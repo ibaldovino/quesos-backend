@@ -41,7 +41,7 @@ public class Estusuarios implements EstusuariosRemote {
    		}
    	}
 
-   	public void borrarEstusuario(Long idaborrar) throws ServiciosException {
+   	public void borrarEstusuario(String idaborrar) throws ServiciosException {
    		try {
    			Estusuario objBorrar = em.find(Estusuario.class, idaborrar);
    			em.remove(objBorrar);

@@ -141,6 +141,7 @@ public class usuarioRest {
 				for(Usuario u : listsusu) {
 					if(u.getNomUsuario().equals(nombreusu)&& u.getPwdUsuario().equals(passusu)) {
 						usuario = gson.toJson(u);
+						System.out.println(usuario);
 					}
 			
 				}
