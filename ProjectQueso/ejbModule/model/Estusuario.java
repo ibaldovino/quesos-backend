@@ -19,7 +19,7 @@ public class Estusuario implements Serializable {
 	@SequenceGenerator(name="seq_esusu", sequenceName="seq_ID_ESTADO_USUARIO", allocationSize=1)
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seq_esusu")
 	@Column(name="ID_ESTADO_USUARIO")
-	private String idEstadoUsuario;
+	private Long idEstadoUsuario;
 
 	@Column(name="DESCR_ESTADO")
 	private String descrEstado;
@@ -33,11 +33,11 @@ public class Estusuario implements Serializable {
 	public Estusuario() {
 	}
 
-	public String getIdEstadoUsuario() {
+	public Long getIdEstadoUsuario() {
 		return this.idEstadoUsuario;
 	}
 
-	public void setIdEstadoUsuario(String idEstadoUsuario) {
+	public void setIdEstadoUsuario(Long idEstadoUsuario) {
 		this.idEstadoUsuario = idEstadoUsuario;
 	}
 

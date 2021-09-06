@@ -1,6 +1,8 @@
 package model;
 
 import java.io.Serializable;
+import java.util.Date;
+
 import javax.persistence.*;
 
 
@@ -24,13 +26,13 @@ public class Usuario implements Serializable {
 	private String apeUsuario;
 
 	@Column(name="FECALT_USUARIO")
-	private String fecaltUsuario;
+	private Date fecaltUsuario;
 
 	@Column(name="FECBAJ_USUARIO")
-	private String fecbajUsuario;
+	private Date fecbajUsuario;
 
 	@Column(name="FECSUS_USUARIO")
-	private String fecsusUsuario;
+	private Date fecsusUsuario;
 
 	@Column(name="MAIL_USUARIO")
 	private String mailUsuario;
@@ -76,27 +78,27 @@ public class Usuario implements Serializable {
 		this.apeUsuario = apeUsuario;
 	}
 
-	public String getFecaltUsuario() {
+	public Date getFecaltUsuario() {
 		return this.fecaltUsuario;
 	}
 
-	public void setFecaltUsuario(String fecaltUsuario) {
+	public void setFecaltUsuario(Date fecaltUsuario) {
 		this.fecaltUsuario = fecaltUsuario;
 	}
 
-	public String getFecbajUsuario() {
+	public Date getFecbajUsuario() {
 		return this.fecbajUsuario;
 	}
 
-	public void setFecbajUsuario(String fecbajUsuario) {
+	public void setFecbajUsuario(Date fecbajUsuario) {
 		this.fecbajUsuario = fecbajUsuario;
 	}
 
-	public String getFecsusUsuario() {
+	public Date getFecsusUsuario() {
 		return this.fecsusUsuario;
 	}
 
-	public void setFecsusUsuario(String fecsusUsuario) {
+	public void setFecsusUsuario(Date fecsusUsuario) {
 		this.fecsusUsuario = fecsusUsuario;
 	}
 
